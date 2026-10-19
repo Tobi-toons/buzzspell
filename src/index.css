@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #faf7f2;
+  color: #1e293b;
+  -webkit-tap-highlight-color: transparent;
+  min-height: 100vh;
+}
+
+/* Snappy touch buttons with no delayed click or selection */
+.touch-key {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Subtle honeycomb pattern background */
+.bg-honeycomb {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#e5dbcc 0.75px, transparent 0.75px), radial-gradient(#e5dbcc 0.75px, #faf7f2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}

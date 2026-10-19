@@ -1,0 +1,6 @@
+{
+  "name": "BuzzSpell - Peer-to-Peer Spelling Bee",
+  "description": "A real-time peer-to-peer spelling bee game for hosts and players. Create custom word lists, pronounce words with text-to-speech, type on a custom touch keyboard, and master mistakes with smart spaced practice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
